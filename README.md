@@ -1,6 +1,6 @@
 # npmtest-json-api
 
-#### test coverage for  [json-api (v2.15.7)](https://github.com/ethanresnick/json-api)  [![npm package](https://img.shields.io/npm/v/npmtest-json-api.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-json-api) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-json-api.svg)](https://travis-ci.org/npmtest/node-npmtest-json-api)
+#### basic test coverage for  [json-api (v2.15.7)](https://github.com/ethanresnick/json-api)  [![npm package](https://img.shields.io/npm/v/npmtest-json-api.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-json-api) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-json-api.svg)](https://travis-ci.org/npmtest/node-npmtest-json-api)
 
 #### A library for constructing JSON-API compliant responses
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-json-api/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-json-api/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-json-api/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-json-api/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-json-api/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-json-api/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-json-api/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-json-api/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-json-api/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-json-api/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-json-api/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-json-api/build/coverage.html/index.html)
 
@@ -113,7 +113,8 @@
         "prepublish": "make compile",
         "test": "./node_modules/mocha/bin/_mocha ./build/test/integration/index.js $(find ./build/test/unit -name \"*.js\")"
     },
-    "version": "2.15.7"
+    "version": "2.15.7",
+    "bin": {}
 }
 ```
 
